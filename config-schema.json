@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "field1": {
+      "type": "number",
+      "description": "First configuration parameter. This value will be shown when you hover over your JSON field"
+    },
+    "field2": {
+      "type": "string",
+      "description": "Second configuration parameter"
+    },
+    "field3": {
+      "enum": ["possibleValue1", "possibleValue2", "possibleValue3"],
+      "description": "Field with alternatives"
+    }
+  }
+}
